@@ -8,5 +8,4 @@ import javax.imageio.ImageTranscoder;
 public interface AddressRepository extends JpaRepository<Address , Integer> {
 
     Address findAddressById(Integer id);
-    void deleteAddressesById(Integer id);
 }
